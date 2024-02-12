@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        body {
+            background-image: url("Background.jpg");
+            background-size: cover;
+            background-position: center;
+            font-family: Arial;
+        }
+
+        form {
+            text-align: center;
+            color: white;
+            max-width: 400px;
+            margin: 150px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box;
+            color: black;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+<form>
+    <h1>Contact Us</h1>
+    <input id="firstName" type="text" placeholder="First Name">
+    <input id="lastName" type="text" placeholder="Last Name">
+    <input id="email" type="text" placeholder="Email">
+    <input id="address" type="text" placeholder="Address">
+    <button type="button">Submit</button>
+</form>
+</body>
+</html>
